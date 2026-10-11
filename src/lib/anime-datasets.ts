@@ -2,7 +2,7 @@ const FALLBACK_DATASETS: Record<string, number[]> = {
   bbn: [21, 196935],
 };
 
-const DATASET_ENDPOINT = 'https://gist.githubusercontent.com/bhubanmalek/058fdd20a2cb3db27b9a59561968f07a/raw/72454ff3eed472aeddf6d115cf7bf39b92b1c710/user_anime_mapping.json';
+const DATASET_ENDPOINT = 'https://gist.githubusercontent.com/bhubanmalek/058fdd20a2cb3db27b9a59561968f07a/raw/5c073786fa1ce82f3be3ed262f8c74c75b2f903c/user_anime_mapping.json';
 
 function parseDatasetPayload(rawText: string): unknown {
   try {
